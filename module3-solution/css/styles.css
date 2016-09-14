@@ -1,0 +1,56 @@
+body {
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.navbar-brand {
+  margin-bottom: 15px;
+}
+
+.navbar-brand h1 {
+  color: #000;
+  font-size: 1.8em;
+  margin: 0 0 0 20px;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+
+#collapsible-nav ul {
+  background-color: #dedede;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#collapsible-nav li {
+  border-top: 1px solid black;
+}
+
+#collapsible-nav li:last-child {
+  border-bottom: 1px solid black;
+}
+
+#collapsible-nav li a {
+  color: #606060;
+  text-align: center;
+}
+
+#main-content {
+  margin: 0 30px 30px 30px;
+}
+
+#page-title {
+  margin-bottom: 25px;
+}
+
+#article {
+  background-color: #eee;
+  padding: 0 20px 10 20px;
+}
+
+#article h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
