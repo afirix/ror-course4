@@ -45,12 +45,26 @@ body {
   margin-bottom: 25px;
 }
 
-#article {
-  background-color: #eee;
-  padding: 0 20px 10 20px;
+article {
+  background-color: #ccc;
+  padding: 5px 20px 10px 20px;
 }
 
-#article h3 {
+article h3 {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+a.back-to-top-link {
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .article-holder {
+    margin-bottom: 20px;
+  }
+
+  .article-holder:last-child {
+    margin-bottom: 0;
+  }
 }
